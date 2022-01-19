@@ -42,7 +42,7 @@ const SignUpPage = () => {
        
        
        </SignUpOptions>
-       <ExistingUser>Existing User? <LoginLink to="/loginpage" > Register </LoginLink> </ExistingUser>
+       <ExistingUser>Existing User? <LoginLink to="/loginpage" > Login </LoginLink> </ExistingUser>
     
       </SignUp>
        </SignUpContainer>
