@@ -15,7 +15,7 @@ width: 100vw;
 
 `
 
-export const LoginContainer = styled.div `
+export const SignUpContainer = styled.div `
 height: calc(100vh - 80px);
 max-height: 100vh;
 
@@ -34,7 +34,7 @@ justify-content: center;
 
 
 
-export const LoginTitle = styled.h1 `
+export const SignUpTitle = styled.h1 `
  font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 2rem;
   letter-spacing: 3px;
@@ -76,7 +76,7 @@ export  function Input({type, placeholder})
        color: black;
        font-size: clamp(0.5rem,1.2rem,2rem);
   `
-  export const LoginButton = styled.button `
+  export const SignUpButton = styled.button `
       font-size: 1.4rem;
       border-radius: 50px;
       background: #e9ba23;
@@ -99,7 +99,7 @@ export  function Input({type, placeholder})
 }
   `
   
-  export const Login = styled.div`
+  export const SignUp = styled.div`
   color: #fff;
   position: absolute;
      display: flex;
@@ -116,17 +116,18 @@ backdrop-filter: blur(3px);
 
   `
   
- export const LoginWith = styled.h5`
+ export const SignUpWith = styled.h5`
   cursor: pointor;
   letter-spacing: 0.2rem;
   margin-bottom: 1rem;
  `
  
- export const LoginOptions = styled.div`
+ export const SignUpOptions = styled.div`
  display: flex;
  justify-content: space-between;
  width: 50px;
- margin-bottom: 1rem;
+ 
+ margin-bottom: 2rem;
  `
  
 export const ButtonLink = styled(Link)`
@@ -140,16 +141,14 @@ font-weight:bold;
     width: 40%;
   }
   
-  
-  
 `
 
-export const NewUser = styled.h4 `
+export const ExistingUser = styled.h4 `
     margin-bottom: 2rem;
 `
 
-export const SignUpLink = styled(Link)`
+export const LoginLink = styled(Link)`
     color: black;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.rem
 `

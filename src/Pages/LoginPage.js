@@ -1,5 +1,5 @@
 import React from 'react'
-import { BgContainer ,ButtonLink,LoginWith ,LoginOptions, Login, LoginContainer, LoginTitle, Input, LoginButton} from './StyledLoginPage.js'
+import { BgContainer,SignUpLink,NewUser ,ButtonLink,LoginWith ,LoginOptions, Login, LoginContainer, LoginTitle, Input, LoginButton} from './StyledLoginPage.js'
 import { GlobalStyle} from '../globalStyles';
 import {Nav,NavLink} from '../Components/Navbar/NavbarElements.js';
 import {
@@ -39,7 +39,7 @@ const LoginPage = () => {
        
        
        </LoginOptions>
-    
+       <NewUser>New User? <SignUpLink to="/signuppage" > Register </SignUpLink> </NewUser>
       </Login>
        </LoginContainer>
     </BgContainer>
