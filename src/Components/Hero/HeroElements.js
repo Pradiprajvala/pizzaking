@@ -13,7 +13,7 @@ export const HeroContainer = styled.div`
 `
 
 export const HeroContent = styled.div`
-  height: calc(100vh -80px);
+height: calc(100vh -80px);
   max-height: 100%;
   width: 100vw;
   padding: 0rem calc((100vw - 1300px)/2)
@@ -35,12 +35,12 @@ export const HeroItems = styled.div`
 
 
 @media screen and (max-width: 650px) {
-  width 100%;
+  width:100%;
 }
 `
 
 export const HeroH1 = styled.h1`
-  font size: clamp(2.5rem, 10vw, 5rem);
+  font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
